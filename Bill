@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bill Page</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Link your CSS file -->
+  <style>
+    /* Basic styling for the bill */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.bill-container {
+  width: 80%;
+  margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.items {
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+}
+
+.total span:last-child {
+  font-weight: bold;
+}
+
+  </style>
+</head>
+<body>
+    <header>
+        <img src="images/logo.png" alt="Your Logo">
+      </header>
+  <div class="bill-container">
+    <h1>Order Summary</h1>
+    <div class="items">
+          <div class="item">
+        <span class="item-name">Sofa</span>
+        <span class="item-price">5000</span>
+      </div>
+     </div>
+    <hr>
+    <div class="items">
+        <div class="item">
+      <span class="item-name">King size Chair</span>
+      <span class="item-price">5000</span>
+    </div>
+   </div>
+   <hr>
+   <div class="items">
+    <div class="item">
+  <span class="item-name">Bdd</span>
+  <span class="item-price">5000</span>
+</div>
+</div>
+<hr>
+    <div class="total">
+      <span>Total:</span>
+      <span id="totalAmount">15000</span>
+    </div>
+  </div>
+
+  <script src="script.js"></script> <!-- Link your JavaScript file -->
+  </body>
+</html>
