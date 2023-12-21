@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EastELm</title>
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+  <link rel="stylesheet" href="style/sell.css">
+  <style>
+    body {
+      font-size: 15px;
+      margin: 0; /* Reset default margin */
+    }
+    body{
+    background-image: url('images/myacc.jpeg');
+  
+  }
+    
+
+    header {
+      padding-bottom: 0%; /* Adjust the space between header and main */
+    }
+    /* btn desining */
+    input[type="submit"] 
+    {
+      width: 100px; 
+    }
+
+    /* Rest of your existing styles */
+    /* ... */
+
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Error">
+    <h1>Get Recommended Furniture</h1>
+  </header>
+  <main>
+    <section class="sell-form">
+      <form action="find.html" method="post">
+        <div class="input-box">
+          <label for="height">Height (in inches):</label>
+          <input type="number" id="height" name="height" required>
+        </div>
+        
+        <div class="input-box">
+          <label for="width">Width (in inches):</label>
+          <input type="number" id="width" name="width" required>
+        </div>
+        <div class="input-box">
+          <label for="measurement">Measurement (in inches):</label>
+          <input type="number" id="measurement" name="measurement" required>
+        </div>
+        <div class="input-box">
+          <label for="demanded-price">Demanded Price:</label>
+          <input type="number" id="demanded-price" name="demanded-price">
+                    </div>
+                    <form>
+                      <label for="imageUpload">Upload Image:</label>
+                      <input type="file" id="imageUpload" name="imageUpload" accept="image/*">
+                      <br><br>
+                    </form>
+                  
+        <form>
+          <label for="furnitureType">Select Furniture Type:</label>
+          <select id="furnitureType" name="furnitureType">
+            <option value="chairs">Chairs</option>
+            <option value="beds">Beds</option>
+            <option value="sofa">Sofa</option>
+            <option value="outdoor">outdoor</option>
+            <option value="kids">kids</option>
+            <option value="kitchen">kitchen</option>
+            <option value="dinning room">dinning room</option>
+            <option value="office">office</option>
+            <!-- Add more options as needed -->
+          </select>
+          <br><br>
+         </form>
+        </div>
+        <input type="submit" value="Submit" width="50px">
+
+    </section>
+  </main>
+</body>
+</html>
