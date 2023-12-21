@@ -1,0 +1,54 @@
+/* Styles for the header */
+header {
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .logo img {
+    max-width: 200px;
+    height: auto;
+  }
+  
+  /* Styles for furniture container */
+  .furniture-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  /* Styles for furniture items */
+  .furniture-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    flex: 1 1 300px; /* Added flex properties to control width */
+  }
+  
+  .furniture-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for Add to Cart button */
+  .add-to-cart {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #2980b9;
+  }
+  

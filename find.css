@@ -1,0 +1,129 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333; /* Heading color */
+  }
+  /* Example single-line code for setting background image of containers */
+  
+  .furniture-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for furniture item headings */
+  .furniture-item h2 {
+    margin-top: 0;
+    color: #444; /* Heading color */
+  }
+  /* Sell styling */
+/* Basic styles for the Sell Page */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background-color: #f8f8f8;
+  color: #333;
+  text-align: center;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333; /* Heading color */
+}
+
+/* Fluid Grid Layout */
+.container {
+  width: 90%; /* Example width */
+  margin: 0 auto;
+  /* Use percentages for responsiveness */
+}
+
+.column {
+  width: 33.33%; /* Example column width */
+  float: left;
+  /* Use percentages for responsiveness */
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 600px) {
+  .container {
+      width: 100%; /* Adjust for smaller screens */
+  }
+
+  .column {
+      width: 100%; /* Adjust for smaller screens */
+      float: none;
+  }
+}
+
+/* Flexible Images */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* REMs and EMs for Font Sizes */
+h1 {
+  font-size: 2.5rem; /* Example using rem */
+}
+
+p {
+  font-size: 1.2em; /* Example using em */
+}
+
+/* Example single-line code for setting background image of containers */
+
+.furniture-item {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for furniture item headings */
+.furniture-item h2 {
+  margin-top: 0;
+  color: #444; /* Heading color */
+}
